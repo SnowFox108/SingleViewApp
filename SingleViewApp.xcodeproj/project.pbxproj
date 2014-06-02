@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E252AFA193BA21000C5E93F /* MyRedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E252AF9193BA21000C5E93F /* MyRedButton.m */; };
 		7E37F8ED19354D6400743CC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E37F8EC19354D6400743CC6 /* Foundation.framework */; };
 		7E37F8EF19354D6400743CC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E37F8EE19354D6400743CC6 /* CoreGraphics.framework */; };
 		7E37F8F119354D6400743CC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E37F8F019354D6400743CC6 /* UIKit.framework */; };
@@ -22,6 +23,8 @@
 		7E37F91119354D6400743CC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E37F8F019354D6400743CC6 /* UIKit.framework */; };
 		7E37F91919354D6400743CC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E37F91719354D6400743CC6 /* InfoPlist.strings */; };
 		7E37F91B19354D6400743CC6 /* SingleViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E37F91A19354D6400743CC6 /* SingleViewAppTests.m */; };
+		7E37F927193552FB00743CC6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E37F925193552FB00743CC6 /* DetailViewController.m */; };
+		7E37F928193552FB00743CC6 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E37F926193552FB00743CC6 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E252AF8193BA21000C5E93F /* MyRedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRedButton.h; sourceTree = "<group>"; };
+		7E252AF9193BA21000C5E93F /* MyRedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRedButton.m; sourceTree = "<group>"; };
 		7E37F8E919354D6400743CC6 /* SingleViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E37F8EC19354D6400743CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7E37F8EE19354D6400743CC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +60,9 @@
 		7E37F91619354D6400743CC6 /* SingleViewAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingleViewAppTests-Info.plist"; sourceTree = "<group>"; };
 		7E37F91819354D6400743CC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E37F91A19354D6400743CC6 /* SingleViewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleViewAppTests.m; sourceTree = "<group>"; };
+		7E37F924193552FB00743CC6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7E37F925193552FB00743CC6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7E37F926193552FB00743CC6 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +123,18 @@
 			isa = PBXGroup;
 			children = (
 				7E37F8FB19354D6400743CC6 /* AppDelegate.h */,
-				7E37F8FC19354D6400743CC6 /* AppDelegate.m */,
-				7E37F8FE19354D6400743CC6 /* Main_iPhone.storyboard */,
-				7E37F90119354D6400743CC6 /* Main_iPad.storyboard */,
+				7E37F924193552FB00743CC6 /* DetailViewController.h */,
 				7E37F90419354D6400743CC6 /* ViewController.h */,
+				7E37F8FC19354D6400743CC6 /* AppDelegate.m */,
+				7E37F925193552FB00743CC6 /* DetailViewController.m */,
 				7E37F90519354D6400743CC6 /* ViewController.m */,
 				7E37F90719354D6400743CC6 /* Images.xcassets */,
+				7E37F926193552FB00743CC6 /* DetailViewController.xib */,
+				7E37F90119354D6400743CC6 /* Main_iPad.storyboard */,
+				7E37F8FE19354D6400743CC6 /* Main_iPhone.storyboard */,
 				7E37F8F319354D6400743CC6 /* Supporting Files */,
+				7E252AF8193BA21000C5E93F /* MyRedButton.h */,
+				7E252AF9193BA21000C5E93F /* MyRedButton.m */,
 			);
 			path = SingleViewApp;
 			sourceTree = "<group>";
@@ -233,6 +246,7 @@
 			files = (
 				7E37F90319354D6400743CC6 /* Main_iPad.storyboard in Resources */,
 				7E37F90819354D6400743CC6 /* Images.xcassets in Resources */,
+				7E37F928193552FB00743CC6 /* DetailViewController.xib in Resources */,
 				7E37F90019354D6400743CC6 /* Main_iPhone.storyboard in Resources */,
 				7E37F8F719354D6400743CC6 /* InfoPlist.strings in Resources */,
 			);
@@ -253,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E252AFA193BA21000C5E93F /* MyRedButton.m in Sources */,
 				7E37F90619354D6400743CC6 /* ViewController.m in Sources */,
 				7E37F8FD19354D6400743CC6 /* AppDelegate.m in Sources */,
 				7E37F8F919354D6400743CC6 /* main.m in Sources */,
+				7E37F927193552FB00743CC6 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +486,7 @@
 				7E37F92019354D6400743CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E37F92119354D6400743CC6 /* Build configuration list for PBXNativeTarget "SingleViewAppTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +495,7 @@
 				7E37F92319354D6400743CC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
